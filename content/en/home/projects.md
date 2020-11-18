@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "Selected projects & tutorials"
 
 [content]
   # Page type to display. E.g. project.
@@ -26,12 +26,24 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
-  
+    name = "Olfactory Reception"
+    tag = "Olfactory Reception"
+
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    name = "Gustatory Reception"
+    tag = "Gustatory Reception"
+
+  [[content.filter_button]]
+    name = "Molecular Biology"
+    tag = "Molecular Biology"
+
+  [[content.filter_button]]
+    name = "Electrophysiology"
+    tag = "Electrophysiology"
+
+  [[content.filter_button]]
+    name = "Bioinformatics"
+    tag = "Bioinformatics"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
