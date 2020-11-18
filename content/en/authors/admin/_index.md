@@ -16,8 +16,8 @@ organizations:
 bio: My research interests focuses on insect-plant interactions and chemical communications of insects.
 
 # Interests to show in About widget
-# interests:
-# - Artificial Intelligence
+#interests:
+# - Insect-Plant Interactions and Chemical Communications of Insects
 # - Computational Linguistics
 # - Information Retrieval
 

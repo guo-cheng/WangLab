@@ -45,6 +45,10 @@ subtitle = "Selected projects & tutorials"
     name = "Bioinformatics"
     tag = "Bioinformatics"
 
+  [[content.filter_button]]
+    name = "Sex Pheromone"
+    tag = "Sex Pheromone"
+
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"

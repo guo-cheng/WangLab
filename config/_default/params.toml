@@ -97,7 +97,7 @@ address = {street = "1 Beichen Xilu, Chaoyang District", city = "Beijing", regio
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "40.009783", longitude = "116.387947"}
+coordinates = {latitude = "40.00213", longitude = "116.37587"}
 
 # Directions for visitors to locate you.
 directions = "Enter Building A and take the stairs to Office A616 on Floor 6"

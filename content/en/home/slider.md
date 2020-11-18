@@ -17,7 +17,7 @@ height = "1000px"
 # Duplicate an `[[item]]` block to add more slide,s.
 [[item]]
   title = "Hello"
-  content = "Welcome to Chen-Zhu Wang's Lab :smile:"
+  content = "Welcome to Group of Behavioral Physiology and Neurogenetics:smile::smile::smile:"
   align = "center"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
@@ -44,7 +44,7 @@ height = "1000px"
 #  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 [[item]]
-  title = "2019年动物所"
+  title = ""
  # content = "I am right aligned :smile:"
   align = "center"
 

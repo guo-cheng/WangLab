@@ -19,8 +19,8 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Laboratory management and technical support.
 
-# interests:
-# - Artificial Intelligence
+interests:
+ - Laboratory management and technical support
 # - Computational Linguistics
 # - Information Retrieval
 
