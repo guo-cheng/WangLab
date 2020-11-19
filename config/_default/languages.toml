@@ -15,6 +15,6 @@
   [zh.params]
     description = "中国科学院动物研究所王琛柱组"
   [[zh.menu.main]]
-   name = "Wo"
+   name = "Home"
    url = "#about"
    weight = 1
