@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | </title>
+    <link>www.moths.life/en/authors/</link>
+      <atom:link href="www.moths.life/en/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2020 [Chen-Zhu Wang&#39;s Lab](www.moths.life)</copyright><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/www.moths.life/images/logo_hu38f750835a438699642b4c990c18aebb_320818_300x300_fit_lanczos_2.png</url>
+      <title>Authors</title>
+      <link>www.moths.life/en/authors/</link>
+    </image>
+    
+  </channel>
+</rss>
