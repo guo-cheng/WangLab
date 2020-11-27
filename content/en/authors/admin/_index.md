@@ -63,10 +63,10 @@ social:
 #   link: media/resume.pdf
 
 # Email for Contact widget or Gravatar
-email: ""
+email: "czwang@ioz.ac.cn"
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Remove this if you are not using the People widget.
