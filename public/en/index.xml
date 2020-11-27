@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>www.moths.life/en/</link>
+      <atom:link href="www.moths.life/en/index.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2020 [Chen-Zhu Wang&#39;s Lab](www.moths.life)</copyright><lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/www.moths.life/images/logo_hu38f750835a438699642b4c990c18aebb_320818_300x300_fit_lanczos_2.png</url>
+      <title></title>
+      <link>www.moths.life/en/</link>
+    </image>
+    
+    <item>
+      <title>幺蛾子的生殖器居然也有嗅觉功能？？？</title>
+      <link>www.moths.life/en/project/gustatory-reception/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/project/gustatory-reception/</guid>
+      <description>&lt;h1 id=&#34;幺蛾子的生殖器居然也有嗅觉功能&#34;&gt;幺蛾子的生殖器居然也有嗅觉功能？？？&lt;/h1&gt;
+&lt;p&gt;大家好，好久没有更新了。前几天室里举办了研究生评优答辩，感觉和大家的差距还是蛮大的，无论是工作量还是思路上，我觉得自己还是要抓住生物学问题，而不是针对数据本身，如何找到一个好的科学问题，似乎是解开一切问题最关键的地方。&lt;/p&gt;
+&lt;p&gt;好的，下面进入正题，看到今天的题目，有点UC那味了。今天分享的文献是我们组李睿婷师姐刚刚发表在eLife上的文章^[1]^，首先恭喜师姐，接下来我将尽可能详尽的介绍这篇文章，文章的专业性可能比较强，大家可以按需浏览。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/is7AUlA6giWX.gif&#34; alt=&#34;mark&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/DChKtAygai8i.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;烟青虫属于鳞翅目夜蛾科铃夜蛾属昆虫，主要取食烟草，辣椒等少数茄科植物，是我国的主要农业害虫本文主要研究烟青虫雌性产卵器上嗅觉受体的表达以及帮助雌蛾寻找产卵寄主植物。&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;通过对烟青虫性信息素腺体-产卵器(PG-OV)进行转录组测序，分析得到&lt;em&gt;HassOR31&lt;/em&gt;高表达。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过爪蟾卵母细胞结合双电极电压钳的方式，共注射&lt;em&gt;HassOR31&lt;/em&gt;和&lt;em&gt;HassORco&lt;/em&gt;，此嗅觉受体对所测试化合物中的12种有反应，其中顺-3-己烯丁酸酯(Z-3-hexenyl butyrate)反应最强。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这些反应的化合物可以通过对产卵器进行单感器记录(SSR)得到电生理反应。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过原位杂交实验，&lt;em&gt;HassOR31&lt;/em&gt;和&lt;em&gt;HassORco&lt;/em&gt;在产卵器感器中存在共定位现象。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过产卵实验，雌蛾在缺少触角的情况下也会偏好于顺-3-己烯丁酸酯，这表明&lt;em&gt;HassOR31&lt;/em&gt;可以帮助烟青虫定位产卵位置。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;昆虫的嗅觉系统可以帮助其进行取食，产卵，交配，寻找寄主植物等。触角是昆虫最主要的嗅觉感器，下唇须和喙上也有嗅觉感器，近几年发现昆虫的产卵器上也有嗅觉感器的分布。嗅觉感器是一种多孔型的毛状结构，嗅觉受体神经元(OSN)的树突延伸到感器的端部，而嗅觉受体(OR)就是一种位于树突膜上的膜蛋白。OR是一种非典型的GPCR蛋白(C端和N端位置)，OR要发挥功能需要和ORco结合成异源二聚体，从而形成一个离子通道蛋白，来感受气味化合物。下面是关于昆虫嗅觉感器内部的一个示意图^[2]^。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/FTHkVAG8mo5z.png?imageslim&#34; alt=&#34;olfactory&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;h4 id=&#34;transcriptome-sequencing-and-identification-of-chemosensory-receptors-in-pheromone-gland---ovipositor-of-helicoverpa-assulta&#34;&gt;Transcriptome sequencing and identification of chemosensory receptors in pheromone gland - ovipositor of Helicoverpa assulta&lt;/h4&gt;
+&lt;p&gt;通过转录组测序，得到22 ORs, 6 GRs, 13 IRs, and 9 iGluRs。其中HassOR31 and HassiGluR7表达量都很高，而HassORco表达量偏低。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200525/nPqvUqfGawBX.png?imageslim&#34; alt=&#34;quantification&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其中还计算了棉铃虫PG-OV中OR表达量，&lt;em&gt;HarmOR46&lt;/em&gt;的表达量很低，这与我的分析结果存在分歧。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200525/hl3BjwIUObcr.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;tissue-expression-pattern-of-hassor31&#34;&gt;Tissue expression pattern of HassOR31&lt;/h4&gt;
+&lt;p&gt;通过对雌雄触角，雌性头(去触角)，胸，腹，前足，翅膀以及性信息素腺体-产卵器进行qRT-PCR验证，结果可以验证转录组数据的可靠性。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/qjUuijfwz0si.png?imageslim&#34; alt=&#34;Gene expression of HassOR31 in different tissues of H. assulta&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;localization-of-hassor31-and-hassorco-in-the-ovipositor&#34;&gt;Localization of HassOR31 and HassORco in the ovipositor&lt;/h4&gt;
+&lt;p&gt;通过原位杂交实验(双标)，红色的地高辛标记HassOR31，绿色的生物素标记HassORco，可以看到OR31与ORco确实存在共定位现象，但是大多数情况下，是分开表达的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;==&lt;strong&gt;Z-stacking&lt;/strong&gt;== (also known as focus stacking) is a digital image processing method which combines multiple images taken at different focal distances to provide a composite image with a greater depth of field (i.e. the thickness of the plane of focus) than any of the individual source images.&lt;strong&gt;(焦点合成技术-&amp;gt;提高景深)&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;iframe height=498 width=510 src=&#34;http://cdn.liguocheng.top/elife_poa_e53706_Video_1.mp4&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/evi1nT7PRFyL.png?imageslim&#34; alt=&#34;Localization of HassOR31 and HassORco expression in cells of H. assulta ovipositors&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;functional-analysis-of-hassor31-by-xenopus-laevis-oocytes&#34;&gt;Functional analysis of HassOR31 by Xenopus laevis oocytes&lt;/h4&gt;
+&lt;p&gt;通过爪蟾卵母细胞结合双电极电压钳实验，筛选51种铃夜蛾对其有行为或电生理反应的化合物谱^[3]^，主要包括绿叶气味化合物(GLV)，萜类，脂肪族和芳香族化合物。最后有12种气味化合物出现反应，其中顺-3-己烯丁酸酯，顺-3-己烯乙酸酯，月桂烯，柠檬醛反应较强。单独的HassOR31或者HassiGluR7则没有反应。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/AzF1O1Pglc6p.png?imageslim&#34; alt=&#34;Functional analyses of chemosensory receptors in Xenopus oocytes&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;测试化合物：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/hkfNOpNTeWWT.png?imageslim&#34; alt=&#34;odorants&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;scanning-electron-micrographs-sem-of-the-ovipositor-of-h-assulta-and-its-associated-sensilla&#34;&gt;Scanning electron micrographs (SEM) of the ovipositor of H. assulta and its associated sensilla&lt;/h4&gt;
+&lt;p&gt;扫描电镜的结果显示，产卵器上的感觉毛大致可以分为四类(A和B为整体图)：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C和D：感器长，尖端，表面光滑无毛，可能属于机械感受毛&lt;/li&gt;
+&lt;li&gt;E和F：感器短，基部内陷到凹槽中，表面无孔，可能行使属于机械功能&lt;/li&gt;
+&lt;li&gt;G和H：感器长度与E，F差不多，表面和顶部有孔，外形类似触角上的毛型感器，可能司味觉和嗅觉功能，主要分布在产卵器中部。&lt;/li&gt;
+&lt;li&gt;I和J：表面和顶部有孔，顶部孔大，外形类似触角上的锥型感器，可能司味觉和嗅觉功能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/2rGdfuovxrKI.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;single-sensillum-recordings-ssr-of-putative-chemosensory-sensilla&#34;&gt;Single sensillum recordings (SSR) of putative chemosensory sensilla&lt;/h4&gt;
+&lt;p&gt;通过SSR来验证这些感器是否起嗅觉作用，选取17种HassOR31有反应的以及烟青虫性信息素化合物进行测试，可以看到大多数化合物都与石蜡油，也就是反应基线一致，而顺-3-己烯丁酸酯则有明显反应，且呈剂量梯度。&lt;/p&gt;
+&lt;iframe height=498 width=510 src=&#34;http://cdn.liguocheng.top/elife_poa_e53706_Video_2.mp4&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/PGTsO623ktno.png?imageslim&#34; alt=&#34;Single sensillum recordings (SSR) of putative chemosensory sensilla in an H. assulta ovipositor.&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;oviposition-preference-of-h-assulta-female&#34;&gt;Oviposition preference of H. assulta female&lt;/h4&gt;
+&lt;p&gt;总共有两个产卵实验，一个是图A，将辣椒对称放在一张金属丝网的上面，分别将完整的和切掉触角的交配后雌蛾放入笼子中，看雌蛾的产卵情况，图C和D展现的是完整的和切掉触角雌蛾的产卵分布情况。另一个实验是图B，将顺-3-己烯丁酸酯溶于石蜡油中并放入一个橡胶头中，再以石蜡油为对照放入另一个橡胶头中，将这两种橡胶头分别放在假花的叶子上。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/XML78f9oJp5b.png?imageslim&#34; alt=&#34;The set-up of oviposition choice tests and the spread of eggs laid by mated females of H. assulta&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;器官完整的，交配后的雌蛾对寄主植物辣椒(混合植物挥发物)的产卵偏好性高，去掉触角后的雌蛾仍然对辣椒有产卵偏好性。但完整的雌蛾的产卵偏好指数显著高于去掉触角的雌蛾。&lt;/p&gt;
+&lt;p&gt;将辣椒换成顺-3-己烯丁酸酯，则雌蛾对顺-3-己烯丁酸酯有产卵偏好性，但完整和去掉触角后的雌蛾在产卵偏好指数上没有了差异。感受混合植物挥发物主要通过触角，而感受单个植物挥发物(顺-3-己烯丁酸酯)则需要产卵器。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/UDvHLt8FrUzQ.png?imageslim&#34; alt=&#34;Oviposition preference of the antennae amputated and intact mated females of H. assulta.&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;discussion&#34;&gt;Discussion&lt;/h4&gt;
+&lt;h5 id=&#34;the-function-of-hassor31-expressed-in-the-ovipositor&#34;&gt;The function of HassOR31 expressed in the ovipositor&lt;/h5&gt;
+&lt;p&gt;HassOR31的最佳配体是顺-3-己烯丁酸酯，而HarmOR31最佳配体是月桂烯(myrcene)^[3]^。2012年孙亚兰师姐发表的文章^[4]^介绍了烟草顶空收集的化合物通过GC-EAD和GC-MS鉴定到了(E)-β-ocimene, octanal, (Z)-3-hexenyl acetate, (Z)-3-hexen-1-ol, nonanal, (Z)-3-hexenyl-2-methyl butyrate, decanal, linalool, and (E)-β-caryophyllene。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hypothesis：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A gravid female moth takes ==two steps to find an oviposition site==: firstly, she smells the plant volatiles mainly by using antennae to search for a host plant, and secondly when she comes near to or land on the host plant, she integrates the information from ==olfactory sensilla== as well as ==mechanical== and ==contact chemosensory sensilla== on the ovipositor to determine the precise oviposition sites on the host plants.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/uV02KUiH8YHK.png?imageslim&#34; alt=&#34;Di Chang&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h5 id=&#34;large-difference-in-expression-of-hassor31-and-hassorco-in-the-ovipositor&#34;&gt;Large difference in expression of HassOR31 and HassORco in the ovipositor&lt;/h5&gt;
+&lt;p&gt;在SSR反应中，对顺-3-己烯丁酸酯反应的感器较少，这可能反应HassORco的表达量在产卵器中较低，但却无法解释HassOR31表达量很高的原因，其可能发挥除嗅觉外的其他功能。除了OR，GR和IR也在产卵器中有表达。&lt;/p&gt;
+&lt;h5 id=&#34;the-features-of-chemosensory-sensilla-on-the-ovipositor&#34;&gt;The features of chemosensory sensilla on the ovipositor&lt;/h5&gt;
+&lt;p&gt;产卵器上的感器存在类似触角毛形感器和锥形感器，但顶端的孔较大，符合味觉感器的特征，可能同时起到嗅觉和味觉的作用。但这些感器的SSR反应却比较弱。&lt;/p&gt;
+&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h4&gt;
+&lt;p&gt;本实验通过转录组，qRT-PCR，原位杂交，爪蟾卵母细胞功能鉴定，扫描电镜，单感器记录以及产卵实验，从组学数据，分子实验，形态学，电生理学，行为学等方面揭示烟青虫产卵器上的HassOR31参与到嗅觉感受中，并影响其产卵行为。&lt;/p&gt;
+&lt;p&gt;未来的研究可以通过破坏产卵器上的相关感器看是否影响昆虫行为以及通过CRISPR-Cas9敲除掉HassOR31来验证其功能。HassOR31/HassORco所表达的嗅觉受体神经元投射到terminal abdominal ganglion，HassOR31在产卵行为上也需要进一步研究。&lt;/p&gt;
+&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
+&lt;p&gt;[1] Li, R.-T., Huang, L.-Q., Dong, J.-F., Wang, C.-Z., 2020. A moth odorant receptor highly expressed in the ovipositor is involved in detecting host-plant volatiles [WWW Document]. eLife. &lt;a href=&#34;https://doi.org/10.7554/eLife.53706&#34;&gt;https://doi.org/10.7554/eLife.53706&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] Pask, G.M., Ray, A., 2016. Chapter 6 - Insect Olfactory Receptors: An Interface between Chemistry and Biology, in: Zufall, F., Munger, S.D. (Eds.), Chemosensory Transduction. Academic Press, pp. 101–122. &lt;a href=&#34;https://doi.org/10.1016/B978-0-12-801694-7.00006-8&#34;&gt;https://doi.org/10.1016/B978-0-12-801694-7.00006-8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3] Di, C., Ning, C., Huang, L.-Q., Wang, C.-Z., 2017. Design of larval chemical attractants based on odorant response spectra of odorant receptors in the cotton bollworm. Insect Biochemistry and Molecular Biology 84, 48–62. &lt;a href=&#34;https://doi.org/10/gbgwd3&#34;&gt;https://doi.org/10/gbgwd3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[4] Sun, J.-G., Huang, L.-Q., Wang, C.-Z., 2012. Electrophysiological and behavioral responses of Helicoverpa assulta (Lepidoptera: Noctuidae) to tobacco volatiles. Arthropod-Plant Interactions. &lt;a href=&#34;https://doi.org/10/ggwzp2&#34;&gt;https://doi.org/10/ggwzp2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/L7e4Ly8tFk5C.gif&#34; alt=&#34;mark&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/zkBPa1Dhtgv9.gif&#34; alt=&#34;mark&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/lKl04c0FmnKM.gif&#34; alt=&#34;public number&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>幺蛾子的生殖器居然也有嗅觉功能？？？</title>
+      <link>www.moths.life/en/project/olfactory-reception/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/project/olfactory-reception/</guid>
+      <description>&lt;h1 id=&#34;幺蛾子的生殖器居然也有嗅觉功能&#34;&gt;幺蛾子的生殖器居然也有嗅觉功能？？？&lt;/h1&gt;
+&lt;p&gt;大家好，好久没有更新了。前几天室里举办了研究生评优答辩，感觉和大家的差距还是蛮大的，无论是工作量还是思路上，我觉得自己还是要抓住生物学问题，而不是针对数据本身，如何找到一个好的科学问题，似乎是解开一切问题最关键的地方。&lt;/p&gt;
+&lt;p&gt;好的，下面进入正题，看到今天的题目，有点UC那味了。今天分享的文献是我们组李睿婷师姐刚刚发表在eLife上的文章^[1]^，首先恭喜师姐，接下来我将尽可能详尽的介绍这篇文章，文章的专业性可能比较强，大家可以按需浏览。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/is7AUlA6giWX.gif&#34; alt=&#34;mark&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/DChKtAygai8i.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;烟青虫属于鳞翅目夜蛾科铃夜蛾属昆虫，主要取食烟草，辣椒等少数茄科植物，是我国的主要农业害虫本文主要研究烟青虫雌性产卵器上嗅觉受体的表达以及帮助雌蛾寻找产卵寄主植物。&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;通过对烟青虫性信息素腺体-产卵器(PG-OV)进行转录组测序，分析得到&lt;em&gt;HassOR31&lt;/em&gt;高表达。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过爪蟾卵母细胞结合双电极电压钳的方式，共注射&lt;em&gt;HassOR31&lt;/em&gt;和&lt;em&gt;HassORco&lt;/em&gt;，此嗅觉受体对所测试化合物中的12种有反应，其中顺-3-己烯丁酸酯(Z-3-hexenyl butyrate)反应最强。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这些反应的化合物可以通过对产卵器进行单感器记录(SSR)得到电生理反应。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过原位杂交实验，&lt;em&gt;HassOR31&lt;/em&gt;和&lt;em&gt;HassORco&lt;/em&gt;在产卵器感器中存在共定位现象。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过产卵实验，雌蛾在缺少触角的情况下也会偏好于顺-3-己烯丁酸酯，这表明&lt;em&gt;HassOR31&lt;/em&gt;可以帮助烟青虫定位产卵位置。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;昆虫的嗅觉系统可以帮助其进行取食，产卵，交配，寻找寄主植物等。触角是昆虫最主要的嗅觉感器，下唇须和喙上也有嗅觉感器，近几年发现昆虫的产卵器上也有嗅觉感器的分布。嗅觉感器是一种多孔型的毛状结构，嗅觉受体神经元(OSN)的树突延伸到感器的端部，而嗅觉受体(OR)就是一种位于树突膜上的膜蛋白。OR是一种非典型的GPCR蛋白(C端和N端位置)，OR要发挥功能需要和ORco结合成异源二聚体，从而形成一个离子通道蛋白，来感受气味化合物。下面是关于昆虫嗅觉感器内部的一个示意图^[2]^。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/FTHkVAG8mo5z.png?imageslim&#34; alt=&#34;olfactory&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;h4 id=&#34;transcriptome-sequencing-and-identification-of-chemosensory-receptors-in-pheromone-gland---ovipositor-of-helicoverpa-assulta&#34;&gt;Transcriptome sequencing and identification of chemosensory receptors in pheromone gland - ovipositor of Helicoverpa assulta&lt;/h4&gt;
+&lt;p&gt;通过转录组测序，得到22 ORs, 6 GRs, 13 IRs, and 9 iGluRs。其中HassOR31 and HassiGluR7表达量都很高，而HassORco表达量偏低。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200525/nPqvUqfGawBX.png?imageslim&#34; alt=&#34;quantification&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其中还计算了棉铃虫PG-OV中OR表达量，&lt;em&gt;HarmOR46&lt;/em&gt;的表达量很低，这与我的分析结果存在分歧。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200525/hl3BjwIUObcr.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;tissue-expression-pattern-of-hassor31&#34;&gt;Tissue expression pattern of HassOR31&lt;/h4&gt;
+&lt;p&gt;通过对雌雄触角，雌性头(去触角)，胸，腹，前足，翅膀以及性信息素腺体-产卵器进行qRT-PCR验证，结果可以验证转录组数据的可靠性。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/qjUuijfwz0si.png?imageslim&#34; alt=&#34;Gene expression of HassOR31 in different tissues of H. assulta&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;localization-of-hassor31-and-hassorco-in-the-ovipositor&#34;&gt;Localization of HassOR31 and HassORco in the ovipositor&lt;/h4&gt;
+&lt;p&gt;通过原位杂交实验(双标)，红色的地高辛标记HassOR31，绿色的生物素标记HassORco，可以看到OR31与ORco确实存在共定位现象，但是大多数情况下，是分开表达的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;==&lt;strong&gt;Z-stacking&lt;/strong&gt;== (also known as focus stacking) is a digital image processing method which combines multiple images taken at different focal distances to provide a composite image with a greater depth of field (i.e. the thickness of the plane of focus) than any of the individual source images.&lt;strong&gt;(焦点合成技术-&amp;gt;提高景深)&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;iframe height=498 width=510 src=&#34;http://cdn.liguocheng.top/elife_poa_e53706_Video_1.mp4&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/evi1nT7PRFyL.png?imageslim&#34; alt=&#34;Localization of HassOR31 and HassORco expression in cells of H. assulta ovipositors&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;functional-analysis-of-hassor31-by-xenopus-laevis-oocytes&#34;&gt;Functional analysis of HassOR31 by Xenopus laevis oocytes&lt;/h4&gt;
+&lt;p&gt;通过爪蟾卵母细胞结合双电极电压钳实验，筛选51种铃夜蛾对其有行为或电生理反应的化合物谱^[3]^，主要包括绿叶气味化合物(GLV)，萜类，脂肪族和芳香族化合物。最后有12种气味化合物出现反应，其中顺-3-己烯丁酸酯，顺-3-己烯乙酸酯，月桂烯，柠檬醛反应较强。单独的HassOR31或者HassiGluR7则没有反应。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/AzF1O1Pglc6p.png?imageslim&#34; alt=&#34;Functional analyses of chemosensory receptors in Xenopus oocytes&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;测试化合物：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/hkfNOpNTeWWT.png?imageslim&#34; alt=&#34;odorants&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;scanning-electron-micrographs-sem-of-the-ovipositor-of-h-assulta-and-its-associated-sensilla&#34;&gt;Scanning electron micrographs (SEM) of the ovipositor of H. assulta and its associated sensilla&lt;/h4&gt;
+&lt;p&gt;扫描电镜的结果显示，产卵器上的感觉毛大致可以分为四类(A和B为整体图)：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C和D：感器长，尖端，表面光滑无毛，可能属于机械感受毛&lt;/li&gt;
+&lt;li&gt;E和F：感器短，基部内陷到凹槽中，表面无孔，可能行使属于机械功能&lt;/li&gt;
+&lt;li&gt;G和H：感器长度与E，F差不多，表面和顶部有孔，外形类似触角上的毛型感器，可能司味觉和嗅觉功能，主要分布在产卵器中部。&lt;/li&gt;
+&lt;li&gt;I和J：表面和顶部有孔，顶部孔大，外形类似触角上的锥型感器，可能司味觉和嗅觉功能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/2rGdfuovxrKI.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;single-sensillum-recordings-ssr-of-putative-chemosensory-sensilla&#34;&gt;Single sensillum recordings (SSR) of putative chemosensory sensilla&lt;/h4&gt;
+&lt;p&gt;通过SSR来验证这些感器是否起嗅觉作用，选取17种HassOR31有反应的以及烟青虫性信息素化合物进行测试，可以看到大多数化合物都与石蜡油，也就是反应基线一致，而顺-3-己烯丁酸酯则有明显反应，且呈剂量梯度。&lt;/p&gt;
+&lt;iframe height=498 width=510 src=&#34;http://cdn.liguocheng.top/elife_poa_e53706_Video_2.mp4&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/PGTsO623ktno.png?imageslim&#34; alt=&#34;Single sensillum recordings (SSR) of putative chemosensory sensilla in an H. assulta ovipositor.&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;oviposition-preference-of-h-assulta-female&#34;&gt;Oviposition preference of H. assulta female&lt;/h4&gt;
+&lt;p&gt;总共有两个产卵实验，一个是图A，将辣椒对称放在一张金属丝网的上面，分别将完整的和切掉触角的交配后雌蛾放入笼子中，看雌蛾的产卵情况，图C和D展现的是完整的和切掉触角雌蛾的产卵分布情况。另一个实验是图B，将顺-3-己烯丁酸酯溶于石蜡油中并放入一个橡胶头中，再以石蜡油为对照放入另一个橡胶头中，将这两种橡胶头分别放在假花的叶子上。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/XML78f9oJp5b.png?imageslim&#34; alt=&#34;The set-up of oviposition choice tests and the spread of eggs laid by mated females of H. assulta&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;器官完整的，交配后的雌蛾对寄主植物辣椒(混合植物挥发物)的产卵偏好性高，去掉触角后的雌蛾仍然对辣椒有产卵偏好性。但完整的雌蛾的产卵偏好指数显著高于去掉触角的雌蛾。&lt;/p&gt;
+&lt;p&gt;将辣椒换成顺-3-己烯丁酸酯，则雌蛾对顺-3-己烯丁酸酯有产卵偏好性，但完整和去掉触角后的雌蛾在产卵偏好指数上没有了差异。感受混合植物挥发物主要通过触角，而感受单个植物挥发物(顺-3-己烯丁酸酯)则需要产卵器。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200522/UDvHLt8FrUzQ.png?imageslim&#34; alt=&#34;Oviposition preference of the antennae amputated and intact mated females of H. assulta.&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;discussion&#34;&gt;Discussion&lt;/h4&gt;
+&lt;h5 id=&#34;the-function-of-hassor31-expressed-in-the-ovipositor&#34;&gt;The function of HassOR31 expressed in the ovipositor&lt;/h5&gt;
+&lt;p&gt;HassOR31的最佳配体是顺-3-己烯丁酸酯，而HarmOR31最佳配体是月桂烯(myrcene)^[3]^。2012年孙亚兰师姐发表的文章^[4]^介绍了烟草顶空收集的化合物通过GC-EAD和GC-MS鉴定到了(E)-β-ocimene, octanal, (Z)-3-hexenyl acetate, (Z)-3-hexen-1-ol, nonanal, (Z)-3-hexenyl-2-methyl butyrate, decanal, linalool, and (E)-β-caryophyllene。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hypothesis：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A gravid female moth takes ==two steps to find an oviposition site==: firstly, she smells the plant volatiles mainly by using antennae to search for a host plant, and secondly when she comes near to or land on the host plant, she integrates the information from ==olfactory sensilla== as well as ==mechanical== and ==contact chemosensory sensilla== on the ovipositor to determine the precise oviposition sites on the host plants.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/uV02KUiH8YHK.png?imageslim&#34; alt=&#34;Di Chang&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h5 id=&#34;large-difference-in-expression-of-hassor31-and-hassorco-in-the-ovipositor&#34;&gt;Large difference in expression of HassOR31 and HassORco in the ovipositor&lt;/h5&gt;
+&lt;p&gt;在SSR反应中，对顺-3-己烯丁酸酯反应的感器较少，这可能反应HassORco的表达量在产卵器中较低，但却无法解释HassOR31表达量很高的原因，其可能发挥除嗅觉外的其他功能。除了OR，GR和IR也在产卵器中有表达。&lt;/p&gt;
+&lt;h5 id=&#34;the-features-of-chemosensory-sensilla-on-the-ovipositor&#34;&gt;The features of chemosensory sensilla on the ovipositor&lt;/h5&gt;
+&lt;p&gt;产卵器上的感器存在类似触角毛形感器和锥形感器，但顶端的孔较大，符合味觉感器的特征，可能同时起到嗅觉和味觉的作用。但这些感器的SSR反应却比较弱。&lt;/p&gt;
+&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h4&gt;
+&lt;p&gt;本实验通过转录组，qRT-PCR，原位杂交，爪蟾卵母细胞功能鉴定，扫描电镜，单感器记录以及产卵实验，从组学数据，分子实验，形态学，电生理学，行为学等方面揭示烟青虫产卵器上的HassOR31参与到嗅觉感受中，并影响其产卵行为。&lt;/p&gt;
+&lt;p&gt;未来的研究可以通过破坏产卵器上的相关感器看是否影响昆虫行为以及通过CRISPR-Cas9敲除掉HassOR31来验证其功能。HassOR31/HassORco所表达的嗅觉受体神经元投射到terminal abdominal ganglion，HassOR31在产卵行为上也需要进一步研究。&lt;/p&gt;
+&lt;h4 id=&#34;reference&#34;&gt;Reference&lt;/h4&gt;
+&lt;p&gt;[1] Li, R.-T., Huang, L.-Q., Dong, J.-F., Wang, C.-Z., 2020. A moth odorant receptor highly expressed in the ovipositor is involved in detecting host-plant volatiles [WWW Document]. eLife. &lt;a href=&#34;https://doi.org/10.7554/eLife.53706&#34;&gt;https://doi.org/10.7554/eLife.53706&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] Pask, G.M., Ray, A., 2016. Chapter 6 - Insect Olfactory Receptors: An Interface between Chemistry and Biology, in: Zufall, F., Munger, S.D. (Eds.), Chemosensory Transduction. Academic Press, pp. 101–122. &lt;a href=&#34;https://doi.org/10.1016/B978-0-12-801694-7.00006-8&#34;&gt;https://doi.org/10.1016/B978-0-12-801694-7.00006-8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3] Di, C., Ning, C., Huang, L.-Q., Wang, C.-Z., 2017. Design of larval chemical attractants based on odorant response spectra of odorant receptors in the cotton bollworm. Insect Biochemistry and Molecular Biology 84, 48–62. &lt;a href=&#34;https://doi.org/10/gbgwd3&#34;&gt;https://doi.org/10/gbgwd3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[4] Sun, J.-G., Huang, L.-Q., Wang, C.-Z., 2012. Electrophysiological and behavioral responses of Helicoverpa assulta (Lepidoptera: Noctuidae) to tobacco volatiles. Arthropod-Plant Interactions. &lt;a href=&#34;https://doi.org/10/ggwzp2&#34;&gt;https://doi.org/10/ggwzp2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/L7e4Ly8tFk5C.gif&#34; alt=&#34;mark&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/zkBPa1Dhtgv9.gif&#34; alt=&#34;mark&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200524/lKl04c0FmnKM.gif&#34; alt=&#34;public number&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>雄性棉铃虫利用气味结合蛋白(OBP)感受雌性性信息素(Z11-16:Ald)</title>
+      <link>www.moths.life/en/project/electrophysiology/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/project/electrophysiology/</guid>
+      <description>&lt;h1 id=&#34;雄性棉铃虫利用气味结合蛋白obp感受雌性性信息素z11-16ald&#34;&gt;雄性棉铃虫利用气味结合蛋白(OBP)感受雌性性信息素(Z11-16:Ald)&lt;/h1&gt;
+&lt;p&gt;今天分享的这篇文章是我们组郭浩师兄，郭平平师兄和孙亚兰师姐共同完成的，目前文章在bioRxiv上peer review。&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;​ 棉铃虫利用(Z)-11-hexadecenal (Z11-16:Ald)作为主要的性信息素组分，在雄性棉铃虫触角中高表达pheromone binding proteins (PBPs) and two general odorant binding proteins (GOBPs)，而这些气味结合蛋白在感受Z11-16:Ald的具体作用却不清楚。&lt;/p&gt;
+&lt;p&gt;​ 首先我们先合成HarmOR13(感受Z11-16:Ald的一种性信息素受体)抗体来检测PBPs / GOBPs与HarmOR13的相互作用。免疫染色实验表明HarmPBPs和HarmGOBPs各自定位于雄性触角的毛形和锥形感器中的支持细胞中。具体来说，HarmPBP1和HarmPBP2共定位于表达HarmOR13的olfactory receptor neurons (ORNs)中。接下来我们利用果蝇空神经元系统来验证PBP2与HarmOR13的相互作用，我们发现HarmPBP1和HarmPBP2可以显著增加HarmOR13对Z11-16:Ald的敏感性，然而HarmPBP1和HarmPBP2不能拓宽HarmOR13的反应谱。综上，PBP可以增加外周嗅觉敏感性但对嗅觉选择性没有作用。最后，我们发现棉铃虫HarmOR13与果蝇OR67d利用相似的嗅觉编码机制来感受性信息素，这可能表明性信息素的感受机制在不同昆虫目中保守型较高。&lt;/p&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;一般来说，蛾子的毛形感器感受性信息素，而锥形和栓锥形感器感受普通气味化合物。昆虫外周气味感受主要通过odorant binding proteins (OBPs), olfactory receptors (ORs) and odorant degrading enzymes (ODEs)来感受。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Insect ORs are predicted as heterotetramers consisting of two subunits of narrowly tuned ORs and two subunits of highly conserved odorant receptor co receptor (ORco).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;OBP是一类可溶性，高浓度的小分子蛋白，主要存在于嗅觉受体神经元感器的淋巴液中。OBPs可以通过结合气味化合物并把它们转运到树突膜ORNs上的ORs，进行识别。&lt;/p&gt;
+&lt;p&gt;Pheromone binding proteins (PBPs)是一种特异表达在毛形感器中感受性信息素的一类OBPs，PBPs具有物种特异性的结合亲和性，但不同系统下，PBP-PR的相互作用似乎有所差异。结合实验表明GOBPs也会优先结合性信息素。&lt;/p&gt;
+&lt;p&gt;棉铃虫触角上的毛形感器可以分为type A, B and C (ratio: 84:5:11)，type A responds specifically to Z11-16:Ald, type B to (Z)-9-tetradecenal 104 (Z9-14:Ald), and type C to (Z)-9-hexadecenal (Z9-16:Ald), Z9-14:Ald, (Z)-11-105 hexadecenyl acetate (Z11-16:OAc) and (Z)-11-hexadecenol (Z11-16:OH)。&lt;/p&gt;
+&lt;p&gt;在这里，我们采用果蝇的两个互不干扰的GAL4-UAS and LexA-LexAOP系统，表达HarmPBPs在果蝇T1感器，HarmOR13表达在果蝇OR67d神经元中，再结合免疫染色实验来鉴定HarmPBPs和HarmGOBP的分布以及与HarmOR13的相互作用。&lt;/p&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;h4 id=&#34;spatial-distribution-of-harmpbps-and-harmgobps-on-male-antennae-of-harmigera&#34;&gt;Spatial distribution of HarmPBPs and HarmGOBPs on male antennae of H.armigera&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;OBPs are synthesized in the tormogen cells and thecogen cells and then 643 secreted into the sensillum lymph bathing ORNs.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200618/DVq46GJ3npo9.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;HarmPBPs and HarmGOBPs were mutually exclusive and co-localization was never found in the longitudinal sections.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HarmPBPs were only detected in the auxiliary cells underneath the sensilla trichodea, while the expression of HarmPBPs were stricktly restricted to the cells associated with the sensilla basiconica.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种分布表明HarmPBPs特定参与性信息素感受，而HarmGOBPs感受普通气味化合物。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200618/LwtsTFHEL9Ch.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The immunostaining results showed that HarmPBP1and HarmPBP2 were always co-localized.&lt;/li&gt;
+&lt;li&gt;these results identify two categories of PBP positive cells: category A expressing HarmPBP1 &amp;amp; HarmPBP2 and category B harboring all three PBPs.&lt;/li&gt;
+&lt;li&gt;HarmPBP3所占比例为18.7%，这反应了雄性触角上B和C型感器的分布情况。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200618/0NeAN8gPKp2v.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HarmPBP1 and HarmPBP2 expressing cells were closely located to HarmOR13 positive ORNs, whereas the cells additionally expressing HarmPBP3 were not. HarmPBP1 and HarmPBP2也表达在非A型感器中。&lt;/li&gt;
+&lt;li&gt;Neither GOBP1 nor GOBP2 expressing cells showed spatial relationships with HarmOR13 ORNs.这表明GOBP1和GOBP2主要表达在栓锥形感器中感受普通气味化合物。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200618/XCdHW7NSYy3q.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;下图表示PBP1和PBP2和OR13表达在同一个感器中，而PBP3表达在其它感器中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200618/NPtvS4hY3bTH.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;RNA in situ hybridization results confirmed the immunofluorescence results&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200618/9oMG23ozljPO.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;heterologous-expression-of-harmpbp1-harmpbp2-and-harmor13-to-drosophila-t1-sensilla&#34;&gt;Heterologous expression of HarmPBP1, HarmPBP2 and HarmOR13 to Drosophila T1 sensilla&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Using LUSH-GAL4, we successfully expressed HarmPBP1 and HarmPBP2 in the lymph of Drosophila T1 sensilla through supporting cells secretory pathway.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In parallel, HarmOR13 was expressed in the ORNs by the driver line ORco-LexA and the receptor was fully functional as revealed by its response to Z11-16:Ald sensitivity in OR67d ORN.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200618/VD10OydhuEe9.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;functional-interactions-between-harmpbp1--harmpbp2-and-harmor13&#34;&gt;Functional interactions between HarmPBP1 / HarmPBP2 and HarmOR13&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;HarmPBP1 and HarmPBP2 have comparable binding affinities to Z11-16:Ald and are functioning in a similar manner.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200618/dW0rdkKT6xpi.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;the-molecular-principle-of-ligand-receptor-coupling&#34;&gt;The molecular principle of ligand-receptor coupling&lt;/h4&gt;
+&lt;p&gt;HarmOR13可以对Z11-14:Ald有反应，这表明HarmOR13对更长碳链的性信息素可以产生反应，但对18个碳的Z11-18:Ald没反应。而且对16:Ald, Z9-16:Ald and Z7-16:Ald没反应，表明双键的位置也很重要，此外对几何异构体E11-16:Ald也没有反应。对这些Z11-16:OAc, Z11-16:OH and Z11-16:COOH这些不同功能团的性信息素也没有反应。&lt;/p&gt;
+&lt;p&gt;我们发现果蝇OR67d对Z11-18:OAc (cVA), Z11-16:OAc and Z11-14:OAc有反应，但对16:OAc，异构体(E11-16:OAc), Z9-16:OA and Z7-16:OAc, 以及aldehyde(Z11-16:Ald)，alcohol (Z11-16:OH) and acid(Z11-16:COOH)没有反应。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200618/lxkG145X2zfx.png?imageslim&#34; alt=&#34;mark&#34; style=&#34;zoom:80%;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;discussion&#34;&gt;Discussion&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;We found that the presence of HarmPBP1 and HarmPBP2 in Drosophila T1 sensilla enhanced the sensitivity of HarmOR13 to Z11-16:Ald.&lt;/li&gt;
+&lt;li&gt;We observed that HarmPBP1 and HarmPBP2 are colocalized and expressed in the type A sensilla trichodea which house HarmOR13 expressing ORNs.&lt;/li&gt;
+&lt;li&gt;We also noticed that a small fraction of HarmPBP1 and HarmPBP2 positive cells are not physically associated with HarmOR13, hinting at their presences in type B and C sensilla trichodea and their roles in detection of other pheromone components, such as Z9-16:Ald, Z9-14:Ald, Z11-254 16:OAc.&lt;/li&gt;
+&lt;li&gt;Our results favor a model in which PBPs do not have a significant effect on the selectivity of ORNs and PRs determine the specificity of pheromones detection.&lt;/li&gt;
+&lt;li&gt;Our work shows the importance of different structural parameters, such as double bonds, functional groups and isomerism for the ligand-receptor affinity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;值得注意的是，最近的实验表明，敲除掉PBP对蛾子感受性信息素的作用不是非常明显，这表明PBPs可能会有其它的作用。&lt;/p&gt;
+&lt;p&gt;在不同物种PBP研究中出现的矛盾现象可能反映了，这种物种特异性的PBPs在不同物种可能有不同的行使功能的方式。=&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考文献&#34;&gt;参考文献&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1101/2020.06.10.145235&#34;&gt;https://doi.org/10.1101/2020.06.10.145235&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Review of pheromone receptors in heliothine species: expression, function, and evolution</title>
+      <link>www.moths.life/en/publication/ke-yang-2020/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/ke-yang-2020/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A moth odorant receptor highly expressed in the ovipositor is involved in detecting host-plant volatiles</title>
+      <link>www.moths.life/en/publication/rui-ting-li-2020/</link>
+      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/rui-ting-li-2020/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Olfactory coding of intra- and interspecific pheromonal messages by the male Mythimna separata in North China</title>
+      <link>www.moths.life/en/publication/nan-ji-jiang-2020/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/nan-ji-jiang-2020/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The olfactory reception of acetic acid and ionotropic receptors in the Oriental armyworm, Mythimna separata Walker</title>
+      <link>www.moths.life/en/publication/rui-tang-2020/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/rui-tang-2020/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An odorant receptor and glomerulus responding to farnesene in Helicoverpa assulta (Lepidoptera: Noctuidae)</title>
+      <link>www.moths.life/en/publication/han-wu-2019/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/han-wu-2019/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dissecting sex pheromone communication of Mythimna separata (Walker) in North China from receptor molecules and antennal lobes to behavior</title>
+      <link>www.moths.life/en/publication/nan-ji-jiang-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/nan-ji-jiang-2019/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An odorant receptor mediates the attractiveness of cis-jasmone to Campoletis chlorideae, the endoparasitoid of Helicoverpa armigera</title>
+      <link>www.moths.life/en/publication/ya-lan-sun-2018/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/ya-lan-sun-2018/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two single-point mutations shift the ligand selectivity of a pheromone receptor between two closely related moth species</title>
+      <link>www.moths.life/en/publication/ke-yang-2017/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/ke-yang-2017/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Expressional divergences of two desaturase genes determine the opposite ratios of two sex pheromone components in Helicoverpa armigera and Helicoverpa assulta</title>
+      <link>www.moths.life/en/publication/rui-ting-li-2017/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/rui-ting-li-2017/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design of larval chemical attractants based on odorant response spectra of odorant receptors in the cotton bollworm</title>
+      <link>www.moths.life/en/publication/chang-di-2017/</link>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/chang-di-2017/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Inheritance of the Pheromone Sensory System in Two Helicoverpa Species: Dominance of H. armigera and Possible Introgression from H. assulta</title>
+      <link>www.moths.life/en/publication/meng-xu-2016/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/meng-xu-2016/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Inheritance of the Pheromone Sensory System in Two Helicoverpa Species: Dominance of H. armigera and Possible Introgression from H. assulta</title>
+      <link>www.moths.life/en/publication/meng-xu-2017/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/meng-xu-2017/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Functional validation of the carbon dioxide receptor in labial palps of Helicoverpa armigera moths</title>
+      <link>www.moths.life/en/publication/chao-ning-2016/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/chao-ning-2016/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Specific olfactory neurons and glomeruli are associated to differences in behavioral responses to pheromone components between two Helicoverpa species</title>
+      <link>www.moths.life/en/publication/han-wu-2015/</link>
+      <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/han-wu-2015/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Differential immunosuppression by Campoletis chlorideae eggs and ichnovirus in larvae of Helicoverpa armigera and Spodoptera exigua</title>
+      <link>www.moths.life/en/publication/li-bin-han-2015/</link>
+      <pubDate>Mon, 13 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/li-bin-han-2015/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A gustatory receptor tuned to d-fructose in antennal sensilla chaetica of Helicoverpa armigera</title>
+      <link>www.moths.life/en/publication/xiao-jing-jiang-2015/</link>
+      <pubDate>Sat, 14 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/xiao-jing-jiang-2015/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sequence similarity and functional comparisons of pheromone receptor orthologs in two closely related Helicoverpa species</title>
+      <link>www.moths.life/en/publication/xiao-jing-jiang-2014/</link>
+      <pubDate>Fri, 14 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/xiao-jing-jiang-2014/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aldehyde reductase activity in the antennae of Helicoverpa armigera</title>
+      <link>www.moths.life/en/publication/hao-guo-2014/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/hao-guo-2014/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unique function of a chemosensory protein in the proboscis of two Helicoverpa species</title>
+      <link>www.moths.life/en/publication/yu-ling-liu-2014/</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/publication/yu-ling-liu-2014/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>无参转录组分析</title>
+      <link>www.moths.life/en/project/bioinformatics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>www.moths.life/en/project/bioinformatics/</guid>
+      <description>&lt;h2 id=&#34;无参转录组分析实操&#34;&gt;无参转录组分析实操&lt;/h2&gt;
+&lt;h3 id=&#34;author小虫子&#34;&gt;Author：小虫子&lt;/h3&gt;
+&lt;h3 id=&#34;参考statquest-high-throughput-sequencing&#34;&gt;参考：StatQuest [High Throughput Sequencing]&lt;/h3&gt;
+&lt;h4 id=&#34;background&#34;&gt;Background&lt;/h4&gt;
+&lt;p&gt;(&lt;a href=&#34;https://www.youtube.com/playlist?list=PLblh5JKOoLUJo2Q6xK4tZElbIvAACEykp&#34;&gt;https://www.youtube.com/playlist?list=PLblh5JKOoLUJo2Q6xK4tZElbIvAACEykp&lt;/a&gt;)
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/VLerTjISO6cV.png?imageslim&#34; alt=&#34;mark&#34;&gt;
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/GavgM6BTyVTG.png?imageslim&#34; alt=&#34;mark&#34;&gt;
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/Yvvl0O7y0KkO.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;library-construction&#34;&gt;library construction&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/oIoecekwQSBD.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;sequencing&#34;&gt;Sequencing&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/WJuQvPrb5cB1.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;mapping&#34;&gt;Mapping&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/WQy4R2fLLXj4.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;reads_count&#34;&gt;Reads_count&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/JS4uvmiPcAIu.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;normalization&#34;&gt;Normalization&lt;/h4&gt;
+&lt;h5 id=&#34;fpkm&#34;&gt;FPKM&lt;/h5&gt;
+&lt;p&gt;(Reads Per Kilobase of exon model per Million mapped reads)
+RPKM= total exon reads/ (mapped reads (Millions) * exon length(KB)
+total exon reads：某个样本mapping到特定基因的外显子上的所有的reads。
+mapped reads (Millions) :某个样本的所有reads总和。
+exon length(KB)：某个基因的长度（外显子的长度的总和，以KB为单位）。
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/6NR271k74ByP.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;read counts 除以基因长度
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/6Dc3wBoaTGdj.png?imageslim&#34; alt=&#34;mark&#34;&gt;
+2.将每个样品的 read counts 合并，添加一行 Total Reads
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/PzDyfJTd9AOW.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;再除以 Total，得到以下表格
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/Wns1qwP6WRhs.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;tpm&#34;&gt;TPM&lt;/h5&gt;
+&lt;p&gt;(Transcripts Per Kilobase Million)
+(推荐软件，RSEM/Stringtie) 的计算公式：
+TPMi=(Ni/Li)*1000000/sum(Ni/Li+……..+ Nm/Lm)
+Ni：mapping到基因i上的read数； Li：基因i的外显子长度的总和&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;将每个样品的数值求和，添加一行 Total
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/Pq7DvMgC2yrO.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;再除以 Total，得到以下表格
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/IYMy7IKQpf7o.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;visualization&#34;&gt;Visualization&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/LJmvDOXSB69U.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;differential-expression-genes&#34;&gt;Differential expression genes&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/spbTn4xiwanU.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;1-数据质控与过滤&#34;&gt;1. 数据质控与过滤&lt;/h4&gt;
+&lt;h5 id=&#34;fastq格式说明&#34;&gt;FASTQ格式说明：&lt;/h5&gt;
+&lt;p&gt;@HWUSI-EAS100R:6:73:941:1973#0/1
+GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTT
++HWUSI-EAS100R:6:73:941:1973#0/1
+!&#39;&#39;&lt;em&gt;((((&lt;/em&gt;&lt;strong&gt;+))%%%++)(%%%%).1&lt;/strong&gt;*-+*&#39;&#39;))**55CCF&amp;raquo;&amp;raquo;&amp;raquo;CCCCCCC6&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;其中第一行以@开头，后面是reads的ID以及其他信息，例如上例中 HWUSI-EAS100R代表Illumina设备名称，6代表flowcell中的第六个lane，73代表第六个lane中的第73个tile，941:1973代表该read在该tile中的x：y坐标信息；#0，若为多样本的混合作为输入样本，则该标志代表样本的编号，用来区分个样本中的reads；/1代表paired end中的前一个read。&lt;/li&gt;
+&lt;li&gt;第二行为read的序列。&lt;/li&gt;
+&lt;li&gt;第三行以“+”开头，跟随着该read的名称（一般于@后面的内容相同），但有时可以省略，但“+”一定不能省。&lt;/li&gt;
+&lt;li&gt;最初sanger中心用Phred quality score来衡量该read中每个碱基的质量，既-10lgP ，其中P代表该碱基被测序错误的概率，如果该碱基测序出错的概率为0.001，则Q应该为30，那么30+33=63，那么63对应的ASCii码为“？”，则在第四行中该碱基对应的质量代表值即为&amp;quot;?&amp;quot;。
+PHRED33: Convert quality scores to Phred-33
+PHRED64: Convert quality scores to Phred-64&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;trimmomatic&#34;&gt;Trimmomatic&lt;/h5&gt;
+&lt;p&gt;Example:
+java -jar trimmomatic-0.35.jar PE -phred33 input_forward.fq.gz input_reverse.fq.gz output_forward_paired.fq.gz output_forward_unpaired.fq.gz output_reverse_paired.fq.gz output_reverse_unpaired.fq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ILLUMINACLIP: Cut adapter and other illumina-specific sequences from the read.&lt;/li&gt;
+&lt;li&gt;SLIDINGWINDOW: Perform a sliding window trimming, cutting once the average quality within the window falls below a threshold.&lt;/li&gt;
+&lt;li&gt;LEADING: Cut bases off the start of a read, if below a threshold quality&lt;/li&gt;
+&lt;li&gt;TRAILING: Cut bases off the end of a read, if below a threshold quality&lt;/li&gt;
+&lt;li&gt;MINLEN: Drop the read if it is below a specified length&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This will perform the following:
+Remove adapters (ILLUMINACLIP:TruSeq3-PE.fa:2:30:10)
+Remove leading low quality or N bases (below quality 3) (LEADING:3)
+Remove trailing low quality or N bases (below quality 3) (TRAILING:3)
+Scan the read with a 4-base wide sliding window, cutting when the average quality per base drops below 15 (SLIDINGWINDOW:4:15)
+Drop reads below the 36 bases long (MINLEN:36)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;cat filter.sh
+trimmomatic PE -phred33 \
+/Storage/data003/ligc/jiangnanRAWdata/Msep_F_Ant_1.fq.gz \
+/Storage/data003/ligc/jiangnanRAWdata/Msep_F_Ant_2.fq.gz \
+./Msep_F_Ant_1_paired.fq.gz ./Msep_F_Ant_1_unpaired.fq.gz \
+./Msep_F_Ant_2_paired.fq.gz ./Msep_F_Ant_2_unpaired.fq.gz \
+ILLUMINACLIP:/Storage/data003/ligc/anaconda3/share/trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:5 TRAILING:5 SLIDINGWINDOW:4:5 MINLEN:25
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;2-trinity-assembly&#34;&gt;2. Trinity assembly&lt;/h4&gt;
+&lt;h5 id=&#34;workflow&#34;&gt;Workflow&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/2SmB0IEVnTOB.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;原理&#34;&gt;原理：&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Inchworm module&lt;/strong&gt;：将reads打断成kmer，通过对kmer的延伸构建出contig序列。
+&lt;strong&gt;Chrysalis module&lt;/strong&gt;：根据contig之间(k-1)mer的重叠关系，构建出De Bruijn graph，理想情况下一张图代表一个基因，不同的路径代表不同的剪切形式。
+&lt;strong&gt;Butterfly module&lt;/strong&gt;：根据reads对各个路径的支持选择最优路径，打印输出。
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/g5t713zvLSDB.png?imageslim&#34; alt=&#34;mark&#34;&gt;
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/LLutSmx0TI9S.png?imageslim&#34; alt=&#34;mark&#34;&gt;
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/HKmVery80svd.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/IMevvKiSlDux.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/QedbSkMJduuG.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inchworm&lt;/strong&gt; assembles the RNA-seq data into the unique sequences of transcripts, often generating full-length transcripts for a dominant isoform, but then reports just the unique portions of alternatively spliced transcripts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chrysalis&lt;/strong&gt; clusters the Inchworm contigs into clusters and constructs complete de Bruijn graphs for each cluster. Each cluster represents the full transcriptonal complexity for a given gene (or sets of genes that share sequences in common). Chrysalis then partitions the full read set among these disjoint graphs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Butterfly&lt;/strong&gt; then processes the individual graphs in parallel, tracing the paths that reads and pairs of reads take within the graph, ultimately reporting full-length transcripts for alternatively spliced isoforms, and teasing apart transcripts that corresponds to paralogous genes.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;nohup /Storage/data003/ligc/software/trinityrnaseq-Trinity-v2.8.4/Trinity \
+ --seqType fq \
+ --max_memory 60 \
+ --samples_file /Storage/data003/ligc/jiangnanRAWdata/sample.txt \
+ --CPU 30 \
+ &amp;gt; trinity.log 2&amp;gt; trinity_err.log &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;3-transcripts-quality-assessment&#34;&gt;3. Transcripts quality assessment&lt;/h4&gt;
+&lt;h5 id=&#34;31-trinity_stats&#34;&gt;3.1 Trinity_Stats&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;TrinityStats.pl ../MsepTrinity.fa &amp;gt; Assembly_Stats.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/wfGlFmakYYbm.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;拼接的转录本数量一般在20万条以内都可以，转录本数量远多于基因数量，如果转录本数量过多可以考虑使用corset聚类。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;32-buscobenchmarking-universal-single-copy-orthologs&#34;&gt;3.2 BUSCO(Benchmarking Universal Single-Copy Orthologs)&lt;/h5&gt;
+&lt;p&gt;BUSCO原理:在近缘物种中，总有一些基因是保守的。那么，我们就来看这些保守的基因拼接的完整性和准确性如何。BUSCO 软件根据OrthoDB 数据库，构建了几个大的进化分支的单拷贝基因集。将转录本拼接结果与该基因集进行比较，根据比对上的比例、完整性，来评价拼接结果的准确性和完整性。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#下载数据库(目前本版本可以自动下载数据库)
+wget http://busco.ezlab.org/v2/datasets/insecta_odb9.tar.gz
+#目前数据库更新到v10了
+(base) [ligc@cluster busco]$ cat Run_busco.sh
+#获取每个基因最长转录本
+perl /pub/anaconda3/opt/trinity-2.8.4/util/misc/get_longest_isoform_seq_per_trinity_gene.pl ../../MsepTrinity.fa &amp;gt;longest_isoform.fasta
+
+#运行busco
+busco -i longest_isoform.fasta \
+        -l insecta_odb10 \
+        -o busco \
+        -m tran \
+        --cpu 10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/sXsOAuiQM93b.png?imageslim&#34; alt=&#34;short summary&#34;&gt;
+可以看到有85%的转录本序列都可以比对到完整的BUSCO.&lt;/p&gt;
+&lt;h4 id=&#34;4-annotation&#34;&gt;4. Annotation&lt;/h4&gt;
+&lt;p&gt;下载数据库文件&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;(base) [ligc@cluster Trinotate]$ cat Build_Trinotate_db.sh
+#下载database: uniprot ;eggnog ;GO ;Pfam ;pfam2go
+perl /Storage/data003/ligc/software/Trinotate-Trinotate-v3.1.1/admin/Build_Trinotate_Boilerplate_SQLite_db.pl Trinotate20190422
+##构建blast database;diamond的速度更快
+# makeblastdb -in uniprot_sprot.pep -dbtype prot
+diamond makedb --db new_uniprot_sprot.pep --in new_uniprot_sprot.pep
+##构建HMMER database
+gunzip Pfam-A.hmm.gz
+hmmpress Pfam-A.hmm
+##去除空行
+awk &#39;BEGIN {RS = &amp;quot;&amp;gt;&amp;quot; ; FS = &amp;quot;\n&amp;quot; ; ORS = &amp;quot;&amp;quot;} $2 {print &amp;quot;&amp;gt;&amp;quot;$0}&#39; uniprot_sprot.pep &amp;gt; new_uniprot_sprot.pep
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/F8DDaEVrnHXN.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[ligc@cluster step_1_run_transdecoder]$ cat 1_run_transdecoder.sh
+#!/bin/bash
+transcripts=/Storage/data003/ligc/raw_data/MsepTrinity.fa
+uniprot_sprot_db=/Storage/data003/ligc/database/Trinotate/new_uniprot_sprot.pep
+Pfam=/Storage/data003/ligc/database/Trinotate/Pfam-A.hmm
+#1.初步筛选ORF
+TransDecoder.LongOrfs -t $transcripts
+##生成longest_orfs.pep，与已知蛋白数据库进行比对，提高ORF预测的准确性
+#2.与已知蛋白数据库比对（可选）
+diamond blastp -q /Storage/data003/ligc/Annotation/step_1_run_transdecoder/MsepTrinity.fa.transdecoder_dir/longest_orfs.pep \
+             --db $uniprot_sprot_db  \
+             --max-target-seqs 1 \
+             --outfmt 6 \
+             --evalue 1e-10 \
+             --threads 20 \
+             &amp;gt; MsepTrinity.fa.transdecoder_dir/longest_orfs.pep.blastp.outfmt6
+##生成longest_orfs.pep.blastp.outfmt6
+hmmscan --cpu 35 \
+        --domtblout /Storage/data003/ligc/Annotation/step_1_run_transdecoder/MsepTrinity.fa.transdecoder_dir/longest_orfs.pep.pfam.domtblout \
+        $Pfam \
+/Storage/data003/ligc/Annotation/step_1_run_transdecoder/MsepTrinity.fa.transdecoder_dir/longest_orfs.pep
+##生成longest_orfs.pep.pfam.domtblout
+#3.进一步筛选ORF(如果一个ORF在另一个ORF内部则保留长的ORF）
+TransDecoder.Predict -t $transcripts \
+            --retain_pfam_hits MsepTrinity.fa.transdecoder_dir/longest_orfs.pep.pfam.domtblout \
+            --retain_blastp_hits MsepTrinity.fa.transdecoder_dir/longest_orfs.pep.blastp.outfmt6
+##生成MsepTrinity.fa.transdecoder.pep；MsepTrinity.fa.transdecoder.bed；MsepTrinity.fa.transdecoder.cds；MsepTrinity.fa.transdecoder.gff3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/x3R1W53FR5pU.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hmmer 软件包中的hmmscan命令用于功能注释，而hmmsearch则用于抗性基因的鉴定和转录因子的发现。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/Od23b21rRoyG.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;[ligc@cluster step_2_run_blast_hmmer]$ cat step_2_run_blast_hmmer.sh
+$transcripts=/Storage/data003/ligc/raw_data/MsepTrinity.fa
+$proteins=/Storage/data003/ligc/Annotation/step_1_run_transdecoder/MsepTrinity.fa.transdecoder.pep
+$uniprot_sprot_db=/Storage/data003/ligc/database/Trinotate/new_uniprot_sprot.pep
+$Pfam=/Storage/data003/ligc/database/Trinotate/Pfam-A.hmm
+#blastx -query $transcripts -db $uniprot_sprot_db -num_threads 8 -max_target_seqs 1 -outfmt 6 &amp;gt; blastx.outfmt6
+diamond blastx --query $transcripts --db $uniprot_sprot_db --threads 35 --max-target-seqs 1 --outfmt 6 &amp;gt; blastx.outfmt6
+#blastp -query $proteins -db $uniprot_sprot_db -num_threads 8 -max_target_seqs 1 -outfmt 6 &amp;gt; blastp.outfmt6
+diamond blastp --query $proteins --db $uniprot_sprot_db --threads 35 --max-target-seqs 1 --outfmt 6 &amp;gt; blastp.outfmt6
+hmmscan --cpu 35 --domtblout TrinotatePFAM.out $Pfam $proteins &amp;gt; pfam.log
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;blast/diamond tabular 格式说明：
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/25eJaTxe1ADG.png?imageslim&#34; alt=&#34;blast&#34;&gt;
+12列对应的含义依次是：
+Query id：           查询序列ID标识
+Subject id：         比对上的目标序列ID标识
+% identity：         序列比对的一致性百分比
+alignment length：符合比对的比对区域的长度
+mismatches：      比对区域的错配数
+gap openings：    比对区域的gap数目
+q. start：             比对区域在查询序列(Query id)上的起始位点
+q. end：              比对区域在查询序列(Query id)上的终止位点
+s. start：             比对区域在目标序列(Subject id)上的起始位点
+s. end：              比对区域在目标序列(Subject id)上的终止位点
+e-value：            比对结果的期望值
+bit score：          比对结果的bit score值&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;uniprot id可以mapping到GO,KEGG,eggNOG数据库&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/c24eiroNPQv2.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/fiFlUrtYsDXM.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;[ligc@cluster step_3_run_trinotate]$ cat step3_run_trinotate.sh
+#/bin/bash
+TRINOTATE_HOME=/Storage/data003/ligc/software/Trinotate-Trinotate-v3.1.1
+transcripts=/Storage/data003/ligc/raw_data/MsepTrinity.fa
+proteins=/Storage/data003/ligc/Annotation/step_1_run_transdecoder/MsepTrinity.fa.transdecoder.pep
+gene_trans_map=/Storage/data003/ligc/raw_data/MsepTrinity.fa.gene_trans_map
+Trinotate_sqlite=/Storage/data003/ligc/database/Trinotate/Trinotate20190422.sqlite
+blastp_outfmt6=/Storage/data003/ligc/Annotation/step_2_run_blast_hmmer/blastp.outfmt6
+blastx_outfmt6=/Storage/data003/ligc/Annotation/step_2_run_blast_hmmer/blastx.outfmt6
+pfam_out=/Storage/data003/ligc/Annotation/step_2_run_blast_hmmer/TrinotatePFAM.out
+
+#copy Trinotate.sqlite
+#cp $Trinotate_sqlite ./Trinotate.sqlite
+
+#init
+$TRINOTATE_HOME/Trinotate Trinotate.sqlite init --gene_trans_map $gene_trans_map --transcript_fasta $transcripts --transdecoder_pep $proteins
+
+# load protein hits
+$TRINOTATE_HOME/Trinotate Trinotate.sqlite LOAD_swissprot_blastp $blastp_outfmt6
+
+# load transcript hits
+$TRINOTATE_HOME/Trinotate Trinotate.sqlite LOAD_swissprot_blastx $blastx_outfmt6
+
+# load pfam hits
+$TRINOTATE_HOME/Trinotate Trinotate.sqlite LOAD_pfam $pfam_out
+
+# report
+$TRINOTATE_HOME/Trinotate Trinotate.sqlite report &amp;gt; trinotate_annotation_report.xls
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;5-expression-quantification&#34;&gt;5. Expression quantification&lt;/h4&gt;
+&lt;h5 id=&#34;原理-1&#34;&gt;原理：&lt;/h5&gt;
+&lt;p&gt;1.在不同背景下比较mRNA水平&lt;/p&gt;
+&lt;p&gt;同一物种，不同组织：研究基因在不同部分的表达情况
+同一物种，同一组织：研究基因在不同处理下，不同条件下的表达变化
+同一组织，不同物种：研究基因的进化关系
+时间序列实验： 基因在不同时期的表达情况与发育的关系&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我们在进行转录组测序的时候，并不知道用于建库测序的 RNA 来自多少个细胞，总过有多少转录本。所以只能进行相对定量(scRNA-seq)。相对定量，描述的是该基因的转录本占样本中所有转录本的百分比。&lt;/strong&gt;
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/QfKFacxjQiFU.png?imageslim&#34; alt=&#34;mark&#34;&gt;
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/RbIgRDTTQjMV.png?imageslim&#34; alt=&#34;mark&#34;&gt;
+TPM 中的&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/8GEo3mN2kbnt.png?imageslim&#34; alt=&#34;mark&#34;&gt;是对所有基因转录本数目的求和。FPKM 的公式中，&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/9i66VLtXAugo.png?imageslim&#34; alt=&#34;mark&#34;&gt;没有考虑基因长度的影响，相当于直接使用了总 Fragments 数目。
+所以，TPM 更符合我们对相对表达量的定义，而FPKM 似乎没有明确的意义。&lt;/p&gt;
+&lt;h5 id=&#34;脚本&#34;&gt;脚本：&lt;/h5&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;(base) [ligc@cluster quantification]$ cat quantify.sh
+perl /Storage/data003/ligc/software/trinityrnaseq-Trinity-v2.8.4/util/align_and_estimate_abundance.pl --transcripts /Storage/data003/ligc/raw_data/MsepTrinity.fa --seqType fq --est_method RSEM --aln_method bowtie2 --prep_reference --trinity_mode --samples_file /Storage/data003/ligc/jiangnanRAWdata/sample.txt --thread_count 40
+
+ls */RSEM.genes.results &amp;gt; genes.quant_files.txt
+perl /Storage/data003/ligc/software/trinityrnaseq-Trinity-v2.8.4/util/abundance_estimates_to_matrix.pl --est_method RSEM --cross_sample_norm TMM --name_sample_by_basedir --gene_trans_map /Storage/data003/ligc/raw_data/MsepTrinity.fa.gene_trans_map --quant_files isoforms.quant_files.txt --out_prefix isoforms
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;align_and_estimate_abundance.pl 将原始reads比对到组装好的转录本上生成各个样本基因的相对表达量矩阵（TPM,以及FPKM值）。
+abundance_estimates_to_matrix.pl 将不同样本的表达量合并为一个表达矩阵。
+#####结果：
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/0syhlMhDEpvz.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;less -S RSEM.genes.results
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/U2D59RVcTLth.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;6-differential-expression-analysis&#34;&gt;6. Differential Expression Analysis&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用edgeR进行无生物学重复的差异表达分析&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;[ligc@cluster DE_analysis]$ cat run_DE_analysis.sh
+#/bin/bash
+TRINITY_HOME = /Storage/data003/ligc/software/trinityrnaseq-Trinity-v2.8.4
+isoform_counts_matrix = /Storage/data003/ligc/quantification/genes.isoform.counts.matrix
+samples_files = /Storage/data003/ligc/jiangnanRAWdata/sample.txt
+
+perl /Storage/data003/ligc/software/trinityrnaseq-Trinity-v2.8.4/Analysis/DifferentialExpression/run_DE_analysis.pl \
+    --matrix /Storage/data003/ligc/quantification/isoforms.isoform.counts.matrix \
+    --method edgeR \
+    --dispersion 0.1
+    --samples_file /Storage/data003/ligc/jiangnanRAWdata/sample.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;#####结果分析：
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/uEdeTMq9Gpfv.png?imageslim&#34; alt=&#34;mark&#34;&gt;
+&lt;strong&gt;logFC : log(fold change) 表示两个样本间表达量的倍数的对数。&lt;/strong&gt;
+&lt;strong&gt;logCPM : log(counts per millions) 可以理解为未经过基因长度标准化的表达量的对数。&lt;/strong&gt;
+&lt;strong&gt;PValue：&lt;/strong&gt;
+&lt;strong&gt;FDR:&lt;/strong&gt;
+&lt;strong&gt;DEG_list : FDR &amp;lt; 0.05 &amp;amp;&amp;amp; | logFC | &amp;gt;1&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;7normalization&#34;&gt;7.Normalization&lt;/h4&gt;
+&lt;p&gt;一：样品间（组间的数据）的表达标准化
+(处理样品中，有一个基因的表达量异常的高，大量的reads被占，导致其他gene的相对表达量下降。)TPM的标准化是在各自的样品内部的差异基因相对表达量。对于组间来说，也就是处理组和对照组来说就需要进一步的标准化。目的就是能够得到样品间的绝对表达量是否有差异。
+标准化方法：
+内参基因，看家基因。某一基因在样本中的表达肯定是一样的。(有限制，依赖基因的功能注释，数目少准确不高。
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/sGJRkgrIwjlT.png?imageslim&#34; alt=&#34;mark&#34;&gt;
+解决方法2：假设大多数基因是没有差异表达的。用统计学方法找到标准化因子。
+DESeq2(estimateSizeFactors/sizeFactors) edgeR（TMM,calcNormFactors）
+&lt;em&gt;可用Trinity软件包里的run_DE_analysis.pl&lt;/em&gt;
+二：假设检验进行差异表达基因的鉴定
+1.建库测序是一个随机抽样的过程。纵使是两次测序，即抽样，同一基因的reads_count也会有差异。
+当观察到的基因在两组reads_count 中不一样的时候，可能有两种原因：可能是表达丰度上的差异，也可能是随机抽样过程中的波动。假设是随机波动导致的，然后计算在随机波动的前提下，出现当前事件的概率，如果概率低。
+2.假设检验：需要根据实际情况（总体均值、方差是否已知，单样本还是多样本，重复个数的多少/大样本量还是小样本量）
+统计方法：z检验；t检验；卡方检验
+3.差异表达基因通常用t检验（组间差异除以/组内差异，组间差异更大，而组内差异小则更可能有差异【此即是需要测更多生物学重复，能更准确的估计组内差异】）
+4.t值的双侧检验和单侧检验。
+单侧检验：G1在处理组中表达 大于 对照组。右侧面积-&amp;gt;则单侧检验，即up-regulate。
+双侧检验：G1处理组与对照组有明显差异。则双侧检验
+5.一类错误(即为假阳性，与P-value对应，0.05 or 0.01)，二类错误(指漏诊率,假阴性)
+降低一类错误：对于一条gene可能有5%误诊，而在差异基因鉴定时都是大规模的，如果一万条，50条误诊则太高了。p-value 进一步的矫正： FDR，q-value
+降低二类错误：G3增加生物学重复，G2增加测序量来提高抽样次数。
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/tyKz733fdCVu.png?imageslim&#34; alt=&#34;mark&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;8gokegg-pathway-enrichment-analysis&#34;&gt;8.GO&amp;amp;KEGG pathway Enrichment Analysis&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;基因富集分析&lt;/strong&gt;是在一组基因中找到具有一定基因功能特征和生物过程的基因集，在研究差异表达基因、筛选基因的后续分析中经常使用。
+&lt;strong&gt;算法&lt;/strong&gt;
+大体上富集分析有四类算法：ORA、FCS、PT、NT
+&lt;img src=&#34;http://cdn.liguocheng.top/blog/20200409/W5G1GeLHewkd.png?imageslim&#34; alt=&#34;algorithm&#34;&gt;
+&lt;strong&gt;【最常用】ORA(Over Representation Analysis)：过表达分析&lt;/strong&gt;
+&lt;strong&gt;GO富集分析：&lt;/strong&gt;
+&lt;strong&gt;推荐使用clusterProfiler软件包（R包）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Gene Ontology: 基因本体论，描述基因的层级关系【基于ORA算法】可以算得上是高通量数据分析的标配，转录组、甲基化、ChIP-seq、重测序等，都会用到对一个或多个集合的基因进行功能富集分析，来找这个基因集的功能偏好性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;它将基因分门别类放入细胞组分CC、分子功能MF和生物过程BP三个功能类别中（分别对应基因产物在哪里发挥功能、发挥什么样的功能、怎样发挥功能）。
+&lt;strong&gt;KEGG富集分析：&lt;/strong&gt;
+Kyoto Encyclopedia of Genes and Genomes: 系统分析基因产物和化合物在细胞中的代谢途径以及这些基因产物的功能的数据库【基于ORA算法】&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;整合了基因组、化学分子和生化系统等方面的数据,包括代谢通路（KEGG PATHWAY）、药物（KEGG DRUG）、疾病（KEGG DISEASE）、功能模型（KEGG MODULE）、基因序列（KEGG GENES）及基因组（KEGG GENOME）等等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;KEGG 有一套完整KO注释的系统，可完成新测序物种的基因组或转录组的功能注释（KO是蛋白质或酶的一个分类体系，将同一条通路上功能相似、序列相似的蛋白质归为一类）。因此它可以将基因一个个归置到代谢网络指定位置上。&lt;/p&gt;
+&lt;h4 id=&#34;参考文章&#34;&gt;参考文章：&lt;/h4&gt;
+&lt;p&gt;1.&lt;a href=&#34;https://www.jianshu.com/p/042b888d5520&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jianshu.com/p/042b888d5520&lt;/a&gt;
+2.&lt;a href=&#34;https://www.jianshu.com/p/d09e624efcab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jianshu.com/p/d09e624efcab&lt;/a&gt;
+3.&lt;a href=&#34;https://www.jianshu.com/p/1505fa220ce4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jianshu.com/p/1505fa220ce4&lt;/a&gt;
+4.&lt;a href=&#34;https://www.jianshu.com/nb/14291282&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jianshu.com/nb/14291282&lt;/a&gt;
+5.&lt;a href=&#34;http://tiramisutes.github.io/2019/01/21/Trinity.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://tiramisutes.github.io/2019/01/21/Trinity.html&lt;/a&gt;
+6.&lt;a href=&#34;https://www.jianshu.com/p/042b888d5520&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jianshu.com/p/042b888d5520&lt;/a&gt;
+7.&lt;a href=&#34;http://wap.sciencenet.cn/blog-1113671-1038659.html?mobile=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://wap.sciencenet.cn/blog-1113671-1038659.html?mobile=1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
