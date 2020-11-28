@@ -116,7 +116,6 @@ contact_links =
   {icon = "weixin", icon_pack = "fab", name = "WeChat", link = "http://mp.weixin.qq.com/profile?src=3&timestamp=1606541534&ver=1&signature=IyAnHlOO38NNyCTk7L*NxvA-UBuLBMMEDePq03NMF8HhwIyF4Bzq4a73p-S85a2Vaxy9sZLcjs3lsfQH7UocCQ=="},
   {icon = "github-square", icon_pack = "fab", name = "GitHub", link = "https://github.com/guo-cheng"},
   {icon = "researchgate", icon_pack = "fas", name = "Discuss on Forum", link = "https://www.researchgate.net/profile/Chen-Zhu_Wang"}
-  
 
 ############################
 ## Social
