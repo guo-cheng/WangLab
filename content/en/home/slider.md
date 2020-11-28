@@ -51,4 +51,13 @@ height = "1000px"
   overlay_color = "#333"  # An HTML color value.
   overlay_img = "动物所.jpg"  # Image path relative to your `static/media/` folder.
   overlay_filter = 0.7  # Darken the image. Value in range 0-1.
+
+[[item]]
+  title = ""
+ # content = "I am right aligned :smile:"
+  align = "center"
+
+  overlay_color = "#333"  # An HTML color value.
+  overlay_img = "2018福州会议.jpeg"  # Image path relative to your `static/media/` folder.
+  overlay_filter = 0.7  # Darken the image. Value in range 0-1.
 +++
